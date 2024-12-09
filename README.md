@@ -1,12 +1,14 @@
-- 👋 Hi, I’m @ronaldchowlokwai
-- 👀 I’m interested in music
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
-
-<!---
-ronaldchowlokwai/ronaldchowlokwai is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<!DOCTYPE html>
+<head>
+<table>
+<p><a>beef</a> <button>-</button> <num>1</num> <button>+</button> </p>
+<p><a>pork</a> <button>-</button> <num>1</num> <button>+</button> </p>
+<p><a>lettuce</a> <button>-</button> <num>1</num> <button>+</button> </p>
+<p><a>egg</a> <button>-</button> <num>1</num> <button>+</button> </p>
+<p><div id="totalitem" style="padding:10px;
+    font-weight:bold;
+    background-color:#FFF;
+    ">
+</div> <button class="btn btn-default addToCart" id="addToCart" type="submit">Add to Cart</button></p>
+</table>
+</head>
