@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-<head>
+<body>
+<div class="shopping-cart">
+  <!-- Title -->
+  <div class="title">
+    Shopping List 
+  </div>
 <table>
-<p><a>beef</a> <button>-</button> <num>1</num> <button>+</button> </p>
-<p><a>pork</a> <button>-</button> <num>1</num> <button>+</button> </p>
-<p><a>lettuce</a> <button>-</button> <num>1</num> <button>+</button> </p>
-<p><a>egg</a> <button>-</button> <num>1</num> <button>+</button> </p>
-<p><div id="totalitem" style="padding:10px;
-    font-weight:bold;
-    background-color:#FFF;
-    ">
-</div> <button class="btn btn-default addToCart" id="addToCart" type="submit">Add to Cart</button></p>
+    <tr>
+        <td>beef</td> 
+        <td><button>-</button></td>
+        <num>1</num> 
+        <td><button>+</button></td> 
+    </tr>
+    <tr>
+        <td>pork</td> 
+        <td><button>-</button></td> 
+        <num>1</num> 
+        <td><button>+</button></td>
+    </tr>
+    <tr>
+        <td>lettuce</td> 
+        <td><button>-</button></td> 
+        <num>1</num> 
+        <td><button>+</button></td>
+    </tr>
+    <tr>
+        <td>egg</td> 
+        <td><button>-</button></td> 
+        <num>1</num> 
+        <td><button>+</button></td> 
+    </tr>
+    <tr> 
+        <td><input type=text /></td> 
+        <button class="btn btn-default addToCart" id="addToCart" type="submit">Add to Cart</button></p>
+</tr>
 </table>
-</head>
+</body>
+</html>
